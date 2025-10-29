@@ -1,5 +1,5 @@
 <h1>
-  My own Applio Form
+  My own Applio Form with modified launching configurations since original doesn't suit my needs and breaks often
 </h1>
 
 <h1 align="center">
