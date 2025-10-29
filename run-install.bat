@@ -48,13 +48,6 @@ echo.
 pause
 exit /b 0
 
-:cleanup
-echo Cleaning up unnecessary files...
-for %%F in (Makefile Dockerfile docker-compose.yaml *.sh) do if exist "%%F" del "%%F"
-echo Cleanup complete.
-echo.
-exit /b 0
-
 :install_miniconda
 if exist "%CONDA_EXE%" (
     echo Miniconda already installed. Skipping installation.

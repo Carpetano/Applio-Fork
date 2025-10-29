@@ -3,7 +3,6 @@ set -e  # Exit immediately if a command exits with a non-zero status
 
 printf "\033]0;Installer\007"
 clear
-rm -f *.bat  
 
 # Function to log messages with timestamps
 log_message() {
